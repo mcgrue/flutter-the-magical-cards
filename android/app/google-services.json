@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "872292797732",
+    "firebase_url": "https://flutter-the-magical-cards.firebaseio.com",
+    "project_id": "flutter-the-magical-cards",
+    "storage_bucket": "flutter-the-magical-cards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872292797732:android:19d5a9e9274906ed",
+        "android_client_info": {
+          "package_name": "com.example.flutterthemagicalcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872292797732-ft5s7vonsvh8dv969b4be95oequf15an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutterthemagicalcards",
+            "certificate_hash": "74279c128f5655703659e0a8a63203dd89cd0867"
+          }
+        },
+        {
+          "client_id": "872292797732-embes0bdt4p8qliiogjqrgp576aacqjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvnIIPlWnmf0QMRvrD3MOZsl0H5h2r9t0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872292797732-embes0bdt4p8qliiogjqrgp576aacqjt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872292797732-0hvi2eg28l075tb3merqsntip6d3jupc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTheMagicalCards"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
