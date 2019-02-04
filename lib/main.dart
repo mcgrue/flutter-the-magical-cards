@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 import 'sign_in_fab.dart';
+import 'services/auth.dart';
 
 //void main() => runApp(MyApp());
 
@@ -88,7 +91,12 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: const SignInFab(),
+      floatingActionButton: SignInFab(
+        auth: Auth(
+          firebaseAuth: FirebaseAuth.instance,
+          googleSignIn: GoogleSignIn(),
+        ),
+      ),
     );
   }
 }
